@@ -1,0 +1,67 @@
+@font-face{
+	font-family: productSans;
+	src: url(productsans.ttf);
+}
+body{
+	background-color: #212121;
+	font-family: productSans;
+	color: white;
+	margin: 0;
+}
+img{
+	height: 83vh;
+	float: left;
+}
+#content{
+	font-size: 2em;
+	height: auto;
+	width: 400px;
+	margin-left: 75vh;
+	margin-top: 55px; 
+}
+#head{
+	background-color: #40c4ff;
+	height: 17.7vh;
+	width: 100vw;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#about{
+	font-size: 2em;
+	margin-top: 7.2vh;
+	margin-left: 65vw;
+	position: absolute;
+	z-index: 3;
+}
+#about a:link{
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+#about a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#text{
+	font-size: 3em;
+	padding-top: 5vh;
+	padding-left: 12vw;
+}
+#text a:link{
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+#text a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#head img{
+	height: 17vh;
+	width: 17vw;
+}
